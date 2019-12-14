@@ -1,17 +1,55 @@
+@font-face {
+    font-family: 'Myriad Pro Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Myriad Pro Regular'), url('../fonts/MYRIADPRO-REGULAR.woff') format('woff');
+}
+
 .body {
     font-size: 16px;
     background-color: #f9f9f9;
-    font-family: 'MyriadPro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Myriad Pro Regular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: #333;
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
 }
 
+section {
+    min-height: 420px;
+}
 
 /* Navbar Top*/
 .navbar-static-top {
     border-top: 2px solid #feb600;
     margin-bottom: 0;
+}
+
+.navbar-top {
+    background: #fff;
+    border-bottom: 0;
+    min-height: 36px;
+    height: 40px;
+    padding: 0;
+}
+
+.navbar-top .container {
+    margin-top: -10px;
+}
+
+.bahasa-bar .nav {
+    line-height: 54px;
+}
+
+.bahasa-bar .nav .divider {
+    margin-top: 21px
+}
+
+.bahasa-bar .divider{
+    width: 1px;
+    background: #999;
+    height: 15px;
+    margin: 8px 0;
+    opacity: .25
 }
 
 .bahasa-bar {
@@ -37,31 +75,130 @@
     position: relative;
 }
 
-
 .utilities-bar {
     flex-direction: column;
     margin-left: -100px;
+    float: right;
 }
 
-.utilities-bar li a .sign-in .dropdown-menu .border-color {
+.utilities-bar > li {
+    display: inline-block;
+}
 
+.utilities-bar > li > a {
+    line-height: 36px;
+    margin-top: -1px;
+    padding: 10px 15px 0;
+    display: block;
+    color: #fff;
+    font-size: .83em
+}
+
+.utilities-bar > li.nav-item > a{
+    position: relative;
+    margin-top: -1px;
+    padding-top: 10px;
+    padding-left: 35px;
+    color: #fff;
+    margin-right: 5px;
+}
+
+.utilities-bar .nav-item {
+    position: relative;
+}
+
+.utilities-bar .nav-link {
+    padding-top: 10px;
+}
+.utilities-bar li.nav-item .calculator:focus {
+    background: #459dda;
+    color: white;
+    text-decoration: none;
+    border-radius: 0;
+}
+
+.utilities-bar .nav-item div#collapse-calculator.dropdown-menu {
+    margin: 0;
+    top: 40px;
+    border-radius: 0;
+    box-shadow: 0 3px 0 rgba(69,157,218,.7) , 1px 1px 3px 0 rgba(0,0,0,.4);
+}
+
+
+.utilities-bar li.nav-item .location:focus {
+    background: #459dda;
+    color: white;
+    text-decoration: none;
+    border-radius: 0;
+}
+
+.utilities-bar .nav-item div#collapse-location.dropdown-menu {
+    margin: 0;
+    top: 40px;
+    border-radius: 0;
+    box-shadow: 0 3px 0 rgba(69,157,218,.7) , 1px 1px 3px 0 rgba(0,0,0,.4);
+}
+
+.utilities-bar li.nav-item .contact:focus {
+    background: #459dda;
+    color: white;
+    text-decoration: none;
+    border-radius: 0;
+}
+
+.utilities-bar .nav-item div#collapse-contact.dropdown-menu {
+    margin: 0;
+    top: 40px;
+    border-radius: 0;
+    box-shadow: 0 3px 0 rgba(69,157,218,.7) , 1px 1px 3px 0 rgba(0,0,0,.4);
 }
 
 .utilities-bar li .sign-in {
-    top: -9px;
+    margin-top: -1px;
     height: 45px;
     background: #feb600;
-    position: relative;
     padding-top: 11px;
     padding-left: 40px;
-    padding-right: 20px;
+    padding-right: 30px;
     margin-left: 10px;
     color: #1a5289;
     font-weight: 600;
     border-radius: 0 0 4px 4px;
+    font-size: .83em;
 }
 
+.utilities-bar .nav-item div#signin.dropdown-menu {
+    margin: 0;
+    top: 40px;
+    box-shadow: 0 3px 0 rgba(254,182,0,.7);
+    padding: 25px 0 25px 0;
+}
+
+.utilities-bar .nav-item i.fa-lock {
+    font-size: .90em;
+    padding-right: 12px;
+    position: absolute;
+    left: 25%;
+    top: 35%;
+}
+
+.utilities-bar .nav-item i.fa-chevron-down{
+    font-size: .80em;
+    position: absolute;
+    top: 40%;
+    right: 10%;
+}
+
+
 /*Navbar Bottom*/
+.navbar-bottom {
+    max-height: 70px;
+    box-shadow: none;
+    background: #fff none;
+    border: 0;
+    border-bottom: 1px solid #eee
+}
+
 .navbar-bottom .logo-img {
     max-width: 100%;
     height: auto;
@@ -82,8 +219,172 @@
     font-size: 14px;
 }
 
+.navbar-bottom .navbar-nav {
+    padding: auto;
+}
+/*End of Header*/
+
+/*Content*/
+.box-content {
+    background: #FFF !important;
+    margin-top: 0 !important;
+}
+
+.breadcrumb {
+    background: transparent;
+    padding: 26px 0;
+    z-index: 2;
+    margin-bottom: 0;
+    position: absolute
+}
+
+.breadcrumb > li {
+    text-shadow: none;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+.breadcrumb > li + li:before {
+    content: "/\00a0";
+    color: #1a5289;
+    top: 5px;
+    background-image: none
+}
+
+.breadcrumb > li.active {
+    color: #1a5289;
+}
+
+.breadcrumb > li > a {
+    font-weight: normal;
+    letter-spacing: 0;
+    color: #1a5289;
+}
+
+.breadcrumb > li:hover > a {
+    color: #1a5289;
+}
+
+.breadcrumb > li > a:hover {
+    text-decoration: underline
+}
+
+.box-content .row .content-opening {
+    margin-top: 146px;
+}
+
+.box-content .row .content-opening h4{
+    margin-top: 90px;
+    font-size: 31px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    color: #feb602;
+    margin-bottom: 16px;
+}
+
+.box-content .row .content-opening h5 {
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.89;
+    letter-spacing: normal;
+    color: #5a5e72;
+}
+
+.box-content .row .content-opening img{
+    object-fit: contain;
+}
+
+.box-content .content-keuntungan h4 {
+    margin-top: 185px;
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #feb602;
+}
+
+.box-content .content-keuntungan .suku-bunga h5 {
+    margin-top: 46px;
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #003d79;
+}
+
+.box-content .content-keuntungan .content1-valuta img{
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 4px 0px rgba(0,0,0,.2);
+    object-fit: contain;
+}
+
+.box-content .content-keuntungan .content1-calender img{
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 4px 0px rgba(0,0,0,.2);
+    object-fit: contain;
+}
+
+.box-content .content-keuntungan p {
+    margin: 33px;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.72;
+    letter-spacing: normal;
+    text-align: center;
+    color: #1a5289;
+}
+
+.box-content .content-fleksibilitas {
+    margin-top: 192px;
+}
+
+.box-content .content-fleksibilitas h4{
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #003d79;
+}
+
+.box-content .content-fleksibilitas img{
+    object-fit: contain;
+}
+
+.box-content .content-fleksibilitas ul {
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.72;
+    letter-spacing: normal;
+    color: #1a5289;
+}
 
 @media (min-width: 768px) {
+    .navbar-top {
+        height: 56px !important;
+    }
+
     .bahasa-bar {
         visibility: visible;
     }
@@ -111,8 +412,15 @@
         display: block;
         border-bottom: 3px solid #feb600;;
         width: 90%;
-        padding-bottom: 5px;
-        margin: auto auto -8px;
+        padding-bottom: 14px;
+        margin: auto auto -24px;
     }
 
+    .box-content {
+        margin-top: 0 !important
+    }
+
+    .box-content .content-fleksibilitas h4 {
+        margin-left: 70px;
+    }
 }

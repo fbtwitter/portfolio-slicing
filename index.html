@@ -8,18 +8,20 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!--  My CSS  -->
     <link rel="stylesheet" href="css/style.css">
-
+    <!--  Font Awesome CSS-->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <title>Slicing Mandiri Deposit Valas</title>
 </head>
 <body>
 <!--    Navbar-->
 <header class="navbar-static-top">
-    <nav class="navbar navbar-expand-lg navbar-light navbar-top">
+    <nav class="navbar navbar-expand-lg navbar-light navbar-top sticky-top">
         <div class="container">
             <!--Language-->
             <div class="float-left bahasa-bar" href="#">
                 <div class="nav">
                     <a class="nav-item nav-link active p-0" href="#"><span>ID</span></a>
+                    <a class="divider" href="#"></a>
                     <a class="nav-item nav-link p-0" href="#"><span>EN</span></a>
                 </div>
             </div>
@@ -39,18 +41,44 @@
             <div class="utilities-bar" href="#">
                 <ul class="nav mw-100">
                     <li class="nav-item">
-                        <a class="nav-link calculator" href="#">x1</a>
+                        <a class="nav-link calculator" data-toggle="dropdown" href="#collapse-calculator"
+                           aria-expanded="false" aria-controls="collapse-calculator" data-display="static"><i
+                                class="fa fa-calculator"></i></a>
+                        <div class="dropdown-menu dropdown-menu-sm-right" id="collapse-calculator"
+                             style="position: absolute">
+                            <h6 class="dropdown-header">Calculator</h6>
+                            <a class="dropdown-item" href="#">Dummy 1</a>
+                            <a class="dropdown-item" href="#">Dummy 2</a>
+                        </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link location" href="#">x1</a>
+                        <a class="nav-link location" data-toggle="dropdown" href="#collapse-location"
+                           aria-expanded="false" aria-controls="collapse-location" data-display="static"><i
+                                class="fa fa-map-marker"></i></a>
+                        <div class="dropdown-menu dropdown-menu-sm-right" id="collapse-location"
+                             style="position: absolute">
+                            <h6 class="dropdown-header">Location</h6>
+                            <a class="dropdown-item" href="#">Dummy 1</a>
+                            <a class="dropdown-item" href="#">Dummy 2</a>
+                        </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link contact" href="#">x1</a>
+                        <a class="nav-link contact" data-toggle="dropdown" href="#collapse-contact"
+                           aria-expanded="false" aria-controls="collapse-contact" data-display="static"><i
+                                class="fa fa-commenting"></i></a>
+                        <div class="dropdown-menu dropdown-menu-sm-right" id="collapse-contact"
+                             style="position: absolute">
+                            <h6 class="dropdown-header">Contact</h6>
+                            <a class="dropdown-item" href="#">Dummy 1</a>
+                            <a class="dropdown-item" href="#">Dummy 2</a>
+                        </div>
                     </li>
                     <li class="nav-item" style="position: relative">
-                        <a class="nav-link sign-in dropdown-toggle" data-display="static" data-toggle="dropdown"
-                           href="#" role="button" aria-haspopup="true" aria-expanded="false">LogIn</a>
-                        <div class="dropdown-menu dropdown-menu-md-right" style="box-shadow: 0 3px 0 rgba(254,182,0,.7);">
+                        <a class="nav-link sign-in" data-display="static" data-toggle="dropdown"
+                           href="#" role="button" aria-haspopup="true" aria-expanded="false"
+                           data-target="#signin"><i class="fa fa-lock"></i>
+                            <p>Log In</p><i class="fa fa-chevron-down"></i></a>
+                        <div id="signin" class="dropdown-menu dropdown-menu-right">
                             <a class="dropdown-item" href="#">Mandiri Online Personal</a>
                             <a class="dropdown-item" href="#">Mandiri Internet Bisnis</a>
                         </div>
@@ -71,9 +99,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ml-auto">
-                    <a class="nav-item nav-link active" href="#">Perseorangan <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#">Perseorangan <span class="sr-only">(current)</span></a>
                     <a class="nav-item nav-link" href="#">Bisnis</a>
-                    <a class="nav-item nav-link" href="#">Prioritas</a>
+                    <a class="nav-item nav-link active" href="#">Prioritas</a>
                     <a class="nav-item nav-link" href="#">Tentang Mandiri</a>
                     <a class="nav-item nav-link" href="#">Bantuan</a>
                 </div>
@@ -83,10 +111,115 @@
 </header>
 <!--End of Header-->
 
-<!--Jumbotron-->
+<!--Content-->
+<div class="box-content">
+    <div class="container">
+        <!--Breadcrumb-->
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Perseorangan</a></li>
+                <li class="breadcrumb-item"><a href="#">Simpanan</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Tabungan Rupiah</li>
+            </ol>
+        </nav>
+        <!--End Of Breadcrumb-->
+        <!--Content Opening-->
+        <section class="content-opening">
+            <div class="row justify-content-center">
+                <div class="col-lg-7 content-opening">
+                    <h4>Nikmati berbagai pilihan jenis mata uang
+                        dan pembayaran bunga yang fleksibel</h4>
+                    <h5>Ditengah berbagai tawaran produk investasi, Mandiri Deposito Valas layak
+                        Anda pertimbangkan untuk kepastian keamanan dan keuntungan investasi Anda. Mandiri Deposito
+                        Valas
+                        adalah simpanan berjangka dalam berbagai pilihan valuta asing dengan berbagai keuntungan yang
+                        pasti
+                        anda dapatkan.</h5>
+                </div>
+                <div class="col-lg-5 content-opening">
+                    <img src="img/opening.svg">
+                </div>
+            </div>
+        </section>
+        <!--End Of Opening-->
+        <!--Content 1-->
+        <section class="content-keuntungan text-center">
+            <div class="row justify-content-center">
+                <div class="col-lg">
+                    <h4>Keuntungan</h4>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg suku-bunga">
+                    <h5>Suku Bunga yang Kompetitif</h5>
+                </div>
+            </div>
+            <div class="row justify-content-center" style="margin-top: 56px">
+                <div class="col-lg">
+                    <div class="rectangle content1-valuta">
+                        <img src="img/content-1-valuta.svg">
+                    </div>
+                    <p>Suku bunga Mandiri Deposito Valuta Asing yang kompetitif menjadikan investasi Anda lebih cepat
+                        berkembang.</p>
+                </div>
+                <div class="col-lg">
+                    <div class="rectangle content1-calender">
+                        <img src="img/content-1-calender.svg">
+                    </div>
+                    <p>Bunga dihitung berdasarkan jumlah hari sebenarnya
+                        (1 tahun dihitung 365 hari).</p>
+                </div>
+            </div>
+        </section>
+        <!--End Of Content 1-->
+        <!--        Content 2-->
+        <section class="content-fleksibilitas text-center">
+            <div class="row justify-content-center" id="title">
+                <div class="col-lg">
+                    <h4>Fleksibilitas Tinggi</h4>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4" style="margin-top: 24px">
+                    <div class="rectangle">
+                        <img src="img/content-2-fleksibilitas.svg">
+                    </div>
+                </div>
+                <div class="col-lg-7" style="margin-top: 24px">
+                    <div class="text-left">
+                        <ul>
+                            <li>Anda dapat dengan leluasa memilih jangka waktu Deposito yang diinginkan,
+                                1, 3, 6, 12 dan 24 bulan.
+                            </li>
+                            <li>Penempatan Deposito USD dengan setoran banknotes USD 100 (kondisi fisik baik) berlaku 1
+                                :1 (nominal deposito USD yang dibukukan sama dengan nominal banknotes USD yang
+                                disetorkan, tanpa dikenakan biaya atau komisi).
+                            </li>
+                            <li>Bebas komisi untuk penarikan banknotes USD hasil pencairan deposito USD sampai dengan
+                                USD 20,000/nasabah per bulan (selama persediaan di cabang masih ada), sedangkan untuk
+                                penarikan >USD 20,000 hanya dikenakan komisi 0.5% dari nominal penarikan.
+                            </li>
+                            <li>Anda dapat leluasa memilih untuk menginvestasikan kembali bunga deposito ke dalam pokok
+                                Deposito atau ditransfer ke rekening yang Anda kehendaki.
+                            </li>
+                            <li>Bunga Deposito dapat diterima di muka, sehingga Anda tidak perlu membayar penuh sesuai
+                                jumlah yang Anda ingin tempatkan pada Mandiri Deposito Valas.
+                            </li>
+                            <li>Dapat dibuka atas nama 2 orang pribadi (joint account).</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End of Content 2-->
+        <!--       Content 3 -->
+        <section class=""></section>
+        <!--        End Of Content 3-->
+    </div>
+</div>
 
-<!--End of Jumbotron-->
-
+<!--End Of Content-->
 <script src="js/jquery-3.4.1.slim.min.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
 </body>
