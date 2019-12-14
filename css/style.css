@@ -5,6 +5,13 @@
     src: local('Myriad Pro Regular'), url('../fonts/MYRIADPRO-REGULAR.woff') format('woff');
 }
 
+@font-face {
+    font-family: 'Myriad Pro Semibold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Myriad Pro Semibold'), url('../fonts/MYRIADPRO-SEMIBOLD.woff') format('woff');
+}
+
 .body {
     font-size: 16px;
     background-color: #f9f9f9;
@@ -16,6 +23,16 @@
 
 section {
     min-height: 420px;
+}
+
+h2 {
+    font-family: 'Myriad Pro Semibold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
 }
 
 /* Navbar Top*/
@@ -277,19 +294,15 @@ section {
     margin-top: 146px;
 }
 
-.box-content .row .content-opening h4{
+.box-content .row .content-opening h2{
+    font-family: 'Myriad Pro Semibold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     margin-top: 90px;
-    font-size: 31px;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 1.53;
-    letter-spacing: normal;
     color: #feb602;
     margin-bottom: 16px;
 }
 
-.box-content .row .content-opening h5 {
+.box-content .row .content-opening p {
     font-size: 18px;
     font-weight: normal;
     font-stretch: normal;
@@ -303,25 +316,16 @@ section {
     object-fit: contain;
 }
 
-.box-content .content-keuntungan h4 {
+.box-content .content-keuntungan {
     margin-top: 185px;
-    font-size: 30px;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
+}
+
+.box-content .content-keuntungan h2 {
     color: #feb602;
 }
 
-.box-content .content-keuntungan .suku-bunga h5 {
+.box-content .content-keuntungan .suku-bunga h2 {
     margin-top: 46px;
-    font-size: 30px;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
     color: #003d79;
 }
 
@@ -355,14 +359,7 @@ section {
     margin-top: 192px;
 }
 
-.box-content .content-fleksibilitas h4{
-    font-size: 30px;
-    font-weight: 600;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
+.box-content .content-fleksibilitas h2 {
     color: #003d79;
 }
 
@@ -380,7 +377,166 @@ section {
     color: #1a5289;
 }
 
+.box-content .content-fasilitas {
+    margin-top: 221px;
+}
+
+.box-content .content-fasilitas div#head {
+    margin-top: 24px;
+}
+
+.box-content .content-fasilitas h2{
+    line-height: 1.17;
+    letter-spacing: normal;
+    color: #003d79;
+}
+
+.box-content .content-fasilitas p {
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.72;
+    letter-spacing: normal;
+    text-align: right;
+    color: #1a5289;
+}
+
+.box-content .content-fasilitas .kiri p.text-lg-right br{
+    margin-top: 16px;
+}
+
+.box-content .content-fasilitas div#head .kanan{
+    margin-top: 12px
+}
+
+.box-content .content-fasilitas .kanan .justify-content-between {
+    margin-top: 24px;
+}
+
+.box-content .content-fasilitas .kanan .content-3-mata-uang {
+    padding: 6px 20px 12px 20px;
+    border-radius: 10px;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.07);
+    background-color: #ffffff;
+}
+
+.box-content .content-fasilitas .kanan h6{
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #1a5289;
+}
+
+.box-content .content-fasilitas .kanan .content-3-roll-over {
+    padding: 6px 20px 12px 20px;
+    border-radius: 10px;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.07);
+    background-color: #ffffff;
+}
+
+.box-content .content-fasilitas .kanan .content-3-mandiri-internet {
+    padding: 6px 20px 12px 20px;
+    border-radius: 10px;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.07);
+    background-color: #ffffff;
+}
+
+.box-content .content-fasilitas .kanan .content-3-mandiri-internet h6{
+    margin-top: 21px;
+}
+
+.box-content .content-fasilitas .kanan .content-3-mandiri-call {
+    padding: 6px 20px 12px 20px;
+    border-radius: 10px;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.07);
+    background-color: #ffffff;
+}
+
+.box-content .content-fasilitas .kanan .content-3-mandiri-call h6{
+    margin-top: 21px;
+}
+
+.box-content .content-fasilitas .kanan .content-3-mandiri-sms {
+    padding: 6px 20px 12px 20px;
+    border-radius: 10px;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.07);
+    background-color: #ffffff;
+}
+
+.box-content .content-fasilitas .kanan .content-3-mandiri-sms h6{
+    margin-top: 21px;
+}
+
+.box-content .content-kredit {
+    margin-top: 322px;
+}
+
+.box-content .content-kredit h2 {
+    color: #003d79;
+}
+
+.box-content .content-kredit .kiri img {
+    object-fit: contain;
+    margin-top: -114px;
+    float: right;
+}
+
+.box-content .content-kredit .kanan {
+    margin-top: 24px;
+}
+.box-content .content-kredit .kanan p {
+    padding-right: 50px;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.72;
+    letter-spacing: normal;
+    color: #1a5289;
+}
+
+.box-content .content-persyaratan h2{
+    line-height: 1.17;
+    color: #1a5289;
+}
+.box-content .content-persyaratan .head {
+    margin-top: 56px;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.72;
+    letter-spacing: normal;
+    color: #1a5289;
+}
+
+.box-content .content-persyaratan .head .card {
+    margin-top: 8px;
+    line-height: normal !important;
+    width: 90%;
+    border-radius: 8px;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.07);
+    background-color: #ffffff;
+}
+
+.box-content .content-persyaratan .head .card .list-group-item {
+    border:unset;
+}
+
+.box-content .content-persyaratan .head p {
+    font-size: 18px;
+    margin-top: 32px;
+}
+
 @media (min-width: 768px) {
+    /*section {*/
+    /*    margin-top: initial;*/
+    /*}*/
+
     .navbar-top {
         height: 56px !important;
     }
@@ -420,7 +576,7 @@ section {
         margin-top: 0 !important
     }
 
-    .box-content .content-fleksibilitas h4 {
-        margin-left: 70px;
+    .box-content .content-fleksibilitas h2 {
+        margin-left: 6%;
     }
 }
