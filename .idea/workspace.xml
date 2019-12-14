@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6596c500-b5d9-4185-b308-2a19a323b7b2" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1UtV9mHVxP26pa297URPWtPT9no" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ryutta\WebstormProjects\slicing-mandiri-deposit-valas\img" />
+      <recent name="C:\Users\Ryutta\WebstormProjects\slicing-mandiri-deposit-valas\js" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6596c500-b5d9-4185-b308-2a19a323b7b2" name="Default Changelist" comment="" />
+      <created>1576175729737</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576175729737</updated>
+      <workItem from="1576175731236" duration="39000" />
+      <workItem from="1576177309091" duration="2613000" />
+      <workItem from="1576191411868" duration="2343000" />
+      <workItem from="1576203211807" duration="218000" />
+      <workItem from="1576226192226" duration="10771000" />
+      <workItem from="1576264257312" duration="15975000" />
+      <workItem from="1576282665394" duration="3443000" />
+      <workItem from="1576288506567" duration="162000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
