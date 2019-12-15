@@ -17,8 +17,6 @@
 @media (min-width: 768px) {
     h2 {
         font-family: 'Myriad Pro Semibold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-        font-size: 1.875rem;
-        font-weight: 600;
         font-stretch: normal;
         font-style: normal;
         line-height: normal;
@@ -26,7 +24,7 @@
     }
 
     p {
-        font-size: 18px;
+        font-size: 18px !important;
     }
 
     .navbar-top {
@@ -55,14 +53,6 @@
         padding-bottom: 14px;
         margin: auto auto -24px;
     }
-
-    .box-content {
-        margin-top: 0 !important
-    }
-
-    /*.box-content .content-fleksibilitas h2 {*/
-    /*    margin-left: 6%;*/
-    /*}*/
 
     /*Content*/
     .box-content {
@@ -114,11 +104,14 @@
     }
 
     .box-content .row .content-opening {
-        padding-top: 146px;
+        padding-top: 105px !important;
     }
 
-    .box-content .row .content-opening h2{
+    .box-content section.content-opening .row.justify-content-center .content-opening h2{
+        font-size: 1.875rem;
+        font-weight: 600;
         margin-top: 90px;
+        font-family: 'Myriad Pro Semibold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     }
 
     .box-content .row .content-opening p {
@@ -136,18 +129,22 @@
     }
 
     .box-content .content-keuntungan {
-        padding-top: 185px;
+        padding-top: 185px !important;
     }
 
     .box-content .content-keuntungan div.content-body {
         margin-top: 56px;
     }
 
-    .box-content .content-keuntungan h2 {
+    .box-content section.content-keuntungan .row.justify-content-center .col-lg h2 {
+        font-size: 1.875rem;
+        font-weight: 600;
         color: #feb602;
     }
 
-    .box-content .content-keuntungan .suku-bunga h2 {
+    .box-content section.content-keuntungan .row.justify-content-center .col-lg.suku-bunga h2 {
+        font-size: 1.875rem;
+        font-weight: 600;
         margin-top: 46px;
         color: #003d79;
     }
@@ -179,7 +176,7 @@
     }
 
     .box-content .content-fleksibilitas {
-        padding-top: 192px;
+        padding-top: 192px !important;
     }
 
     .box-content .content-fleksibilitas .kiri {
@@ -190,7 +187,10 @@
         margin-top: 24px;
     }
 
-    .box-content .content-fleksibilitas h2 {
+    .box-content section.content-fleksibilitas .col-lg-7 h2 {
+        font-size: 1.875rem;
+        font-weight: 600;
+        margin-left: -3%;
         color: #003d79;
     }
 
@@ -209,14 +209,16 @@
     }
 
     .box-content .content-fasilitas {
-        padding-top: 221px;
+        padding-top: 221px !important;
     }
 
     .box-content .content-fasilitas div#head {
         margin-top: 24px;
     }
 
-    .box-content .content-fasilitas h2{
+    .box-content section.content-fasilitas .row.justify-content-lg-between .text-lg-right h2{
+        font-size: 1.875rem;
+        font-weight: 600;
         line-height: 1.17;
         letter-spacing: normal;
         color: #003d79;
@@ -303,23 +305,25 @@
     }
 
     .box-content .content-kredit {
-        padding-top: 322px;
+        padding-top: 322px !important;
     }
 
-    .box-content .content-kredit h2 {
+    .box-content section.content-kredit .row.justify-content-lg-between .text-lg-left h2 {
+        font-size: 1.875rem;
+        font-weight: 600;
         color: #003d79;
     }
 
-    .box-content .content-kredit .kiri img {
+    .box-content section.content-kredit .kiri img {
         object-fit: contain;
-        margin-top: -114px;
+        margin-top: -180px;
         float: right;
     }
 
-    .box-content .content-kredit .kanan {
+    .box-content section.content-kredit .kanan {
         margin-top: 24px;
     }
-    .box-content .content-kredit .kanan p {
+    .box-content section.content-kredit .kanan p {
         padding-right: 50px;
         font-size: 18px;
         font-weight: normal;
@@ -330,14 +334,29 @@
         color: #1a5289;
     }
 
-    .box-content .content-persyaratan {
-        padding-top: 241px;
+    .box-content .content-kredit .kanan {
+        padding: 0 !important;
     }
 
-    .box-content .content-persyaratan h2{
+    .box-content .content-persyaratan {
+        padding-top: 241px !important;
+    }
+
+    .box-content section.content-persyaratan .row.justify-content-center .col-lg .text-left .card .text-right {
+        margin-top: 0;
+    }
+
+    .box-content section.content-persyaratan .row.justify-content-center .col-lg h2{
+        font-size: 1.875rem;
+        font-weight: 600;
         line-height: 1.17;
         color: #1a5289;
     }
+
+    .box-content section.content-persyaratan .row.justify-content-center .text-justify {
+        margin-top: 0px;
+    }
+
     .box-content .content-persyaratan .head {
         margin-top: 56px;
         font-size: 18px;
@@ -367,7 +386,7 @@
         margin-top: 32px;
     }
 
-    .box-content .content-footer {
+    .box-content section.content-footer {
         margin-top: 122px;
         padding-top: 80px;
         background: #fff;
@@ -385,13 +404,13 @@
         margin-bottom: 10px;
     }
 
-    .content-footer a {
+    .box-content .content-footer a {
         color: grey;
         margin-bottom: 0;
         text-decoration: none;
     }
 
-    .content-footer a {
+    .box-content .content-footer a {
         color: #9197a4;
         transition: color .25s ease-in-out;
         -moz-transition: color .25s ease-in-out;
@@ -399,26 +418,30 @@
         -o-transition: color .25s ease-in-out
     }
 
-    .content-footer a:hover{
+    .box-content .content-footer .row.justify-content-center .call-us p:hover{
         color: #459dda
     }
 
-    .content-footer p {
+    .box-content .content-footer p {
         color: #9197a4;
         line-height: 1.8;
         margin-bottom: 0;
     }
 
-    .content-footer img {
+    .box-content .content-footer img {
         margin-top: 10px;
         width: 80%
     }
 
-    .content-footer .call-us p {
+    .box-content section.content-footer .row.justify-content-center .call-us {
+        margin-top: 0;
+    }
+
+    .box-content section.content-footer .row.justify-content-center .call-us p {
         margin-left: 25px;
     }
 
-    .content-footer .fa-container {
+    .box-content .content-footer .fa-container {
         color: #9197a4;
         float: left;
         margin-top: 3px;
@@ -427,7 +450,7 @@
         width: 20px
     }
 
-    .logo-support a {
+    .box-content .logo-support a {
         display: inline-block;
         width: 100px;
         height: 50px;
@@ -438,15 +461,15 @@
         background-position: center
     }
 
-    .logo-support a:nth-child(1) {
+    .box-content .logo-support a:nth-child(1) {
         background-image: url("../img/logo-edukasi-masyarakat.jpg");
     }
 
-    .logo-support a:nth-child(2) {
+    .box-content .logo-support a:nth-child(2) {
         background-image: url(../img/logo-ayo-ke-bank.jpg);
     }
 
-    .logo-support a:nth-child(3) {
+    .box-content .logo-support a:nth-child(3) {
         background-image: url(../img/logo-lembaga-simpan-pinjam.jpg);
     }
 
@@ -474,27 +497,27 @@
         background-color: #459dda;
         cursor: pointer;
         display: block;
-        height: 54px;
-        width: 54px;
+        height: 56px;
+        width: 56px;
         position: fixed;
         right: 88px;
         bottom: 20px;
         z-index: 8;
         padding: 10px 20px;
-        font-size: 18px;
+        font-size: 24px;
         border-radius: 50%
     }
 
     .chat-icon {
-        width: 55px;
-        height: 55px;
+        width: 56px;
+        height: 56px;
         line-height: 50px;
         text-align: center;
         z-index: 99999;
         border-radius: 100%;
         cursor: pointer;
         background-color: #3498db;
-        background-size: 30px;
+        background-size: 24px;
         background-repeat: no-repeat;
         background-position: 50%;
         background-image: url(../img/ic_chat.png);
@@ -525,7 +548,6 @@ section {
 
 h2 {
     font-family: 'Myriad Pro Semibold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 1.5rem;
     font-stretch: normal;
     font-style: normal;
     line-height: normal;
@@ -807,6 +829,7 @@ p {
 }
 
 .box-content .row .content-opening h2{
+    font-size: 1.5rem;
     line-height: 1.53;
     color: #feb602;
     margin-bottom: 16px;
@@ -830,10 +853,12 @@ p {
 }
 
 .box-content .content-keuntungan h2 {
+    font-size: 1.5rem;
     color: #feb602;
 }
 
 .box-content .content-keuntungan .suku-bunga h2 {
+    font-size: 1.5rem;
     margin-top: 46px;
     color: #003d79;
 }
@@ -873,6 +898,7 @@ p {
 }
 
 .box-content .content-fleksibilitas h2 {
+    font-size: 1.5rem;
     color: #003d79;
 }
 
@@ -995,6 +1021,7 @@ p {
 }
 
 .box-content .content-kredit h2 {
+    font-size: 1.5rem;
     color: #003d79;
 }
 
@@ -1021,6 +1048,11 @@ p {
 
 .box-content .content-persyaratan {
     padding-top: 80px;
+    margin-bottom: 40px;
+}
+
+.box-content .content-persyaratan .col-lg .text-left .card .text-right {
+    margin-top: -20px;
 }
 
 .box-content .content-persyaratan h2{
@@ -1064,8 +1096,9 @@ p {
     padding-right: 20px;
 }
 .box-content .content-footer {
-    padding-top: 80px;
+    padding-top: 15px;
     background: #fff;
+    border-top: 1px solid #eee;
 }
 
 .box-content .content-footer .text-left {
@@ -1083,13 +1116,13 @@ p {
     margin-bottom: 10px;
 }
 
-.content-footer a {
+.box-content .content-footer a {
     color: grey;
     margin-bottom: 0;
     text-decoration: none;
 }
 
-.content-footer a {
+.box-content .content-footer a {
     color: #9197a4;
     transition: color .25s ease-in-out;
     -moz-transition: color .25s ease-in-out;
@@ -1097,30 +1130,30 @@ p {
     -o-transition: color .25s ease-in-out
 }
 
-.content-footer a:hover{
+.box-content .content-footer .call-us p:hover{
     color: #459dda
 }
 
-.content-footer p {
+.box-content .content-footer p {
     color: #9197a4;
     line-height: 1.8;
     margin-bottom: 0;
 }
 
-.content-footer img {
+.box-content .content-footer img {
     margin-top: 10px;
     width: 80%
 }
 
-.content-footer .call-us {
+.box-content .content-footer .call-us {
     margin-top: 14px;
 }
 
-.content-footer .call-us p {
+.box-content .content-footer .call-us p {
     margin-left: 25px;
 }
 
-.content-footer .fa-container {
+.box-content .content-footer .fa-container {
     color: #9197a4;
     float: left;
     margin-top: 3px;
@@ -1129,7 +1162,7 @@ p {
     width: 20px
 }
 
-.logo-support a {
+.box-content .logo-support a {
     display: inline-block;
     width: 100px;
     height: 50px;
@@ -1140,20 +1173,20 @@ p {
     background-position: center
 }
 
-.logo-support a:nth-child(1) {
+.box-content .logo-support a:nth-child(1) {
     background-image: url("../img/logo-edukasi-masyarakat.jpg");
 }
 
-.logo-support a:nth-child(2) {
+.box-content .logo-support a:nth-child(2) {
     background-image: url(../img/logo-ayo-ke-bank.jpg);
 }
 
-.logo-support a:nth-child(3) {
+.box-content .logo-support a:nth-child(3) {
     background-image: url(../img/logo-lembaga-simpan-pinjam.jpg);
 }
 
 .footer-end {
-    margin-top: 24px;
+    margin-top: 48px;
     background: #2469a5 !important;
     padding: 15px 0 !important;
     color: #fff !important;
@@ -1177,27 +1210,27 @@ p {
     background-color: #459dda;
     cursor: pointer;
     display: block;
-    height: 54px;
-    width: 54px;
+    height: 56px;
+    width: 56px;
     position: fixed;
     right: 88px;
     bottom: 20px;
     z-index: 8;
     padding: 10px 20px;
-    font-size: 18px;
+    font-size: 24px;
     border-radius: 50%
 }
 
 .chat-icon {
-    width: 55px;
-    height: 55px;
+    width: 56px;
+    height: 56px;
     line-height: 50px;
     text-align: center;
     z-index: 99999;
     border-radius: 100%;
     cursor: pointer;
     background-color: #3498db;
-    background-size: 30px;
+    background-size: 24px;
     background-repeat: no-repeat;
     background-position: 50%;
     background-image: url(../img/ic_chat.png);
