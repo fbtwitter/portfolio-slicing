@@ -18,7 +18,7 @@
     <nav class="navbar navbar-expand-lg navbar-light navbar-top sticky-top">
         <div class="container">
             <!--Language-->
-            <div class="float-left bahasa-bar" href="#">
+            <div class="float-left bahasa-bar d-none d-md-block d-xl-block" href="#">
                 <div class="nav">
                     <a class="nav-item nav-link active p-0" href="#"><span>ID</span></a>
                     <a class="divider" href="#"></a>
@@ -28,7 +28,7 @@
             <!--End Of language-->
             <!--Search bar-->
             <div class="col-5 search-bar" href="#">
-                <div class="nav">
+                <div class="nav d-none d-md-block d-xl-block">
                     <form class="form-inline">
                         <input class="form-control mr-sm-2" type="search"
                                placeholder="Ketik untuk mencari"
@@ -44,8 +44,7 @@
                         <a class="nav-link calculator" data-toggle="dropdown" href="#collapse-calculator"
                            aria-expanded="false" aria-controls="collapse-calculator" data-display="static"><i
                                 class="fa fa-calculator"></i></a>
-                        <div class="dropdown-menu dropdown-menu-sm-right" id="collapse-calculator"
-                             style="position: absolute">
+                        <div class="dropdown-menu dropdown-menu-sm-right" id="collapse-calculator">
                             <h6 class="dropdown-header">Calculator</h6>
                             <a class="dropdown-item" href="#">Dummy 1</a>
                             <a class="dropdown-item" href="#">Dummy 2</a>
@@ -55,8 +54,7 @@
                         <a class="nav-link location" data-toggle="dropdown" href="#collapse-location"
                            aria-expanded="false" aria-controls="collapse-location" data-display="static"><i
                                 class="fa fa-map-marker"></i></a>
-                        <div class="dropdown-menu dropdown-menu-sm-right" id="collapse-location"
-                             style="position: absolute">
+                        <div class="dropdown-menu dropdown-menu-sm-right" id="collapse-location">
                             <h6 class="dropdown-header">Location</h6>
                             <a class="dropdown-item" href="#">Dummy 1</a>
                             <a class="dropdown-item" href="#">Dummy 2</a>
@@ -66,8 +64,7 @@
                         <a class="nav-link contact" data-toggle="dropdown" href="#collapse-contact"
                            aria-expanded="false" aria-controls="collapse-contact" data-display="static"><i
                                 class="fa fa-commenting"></i></a>
-                        <div class="dropdown-menu dropdown-menu-sm-right" id="collapse-contact"
-                             style="position: absolute">
+                        <div class="dropdown-menu dropdown-menu-sm-right" id="collapse-contact">
                             <h6 class="dropdown-header">Contact</h6>
                             <a class="dropdown-item" href="#">Dummy 1</a>
                             <a class="dropdown-item" href="#">Dummy 2</a>
@@ -109,7 +106,7 @@
         </div>
     </nav>
 </header>
-<!--End of Header-->
+<!--End of Navbar-->
 
 <!--Content-->
 <div class="box-content">
@@ -127,6 +124,11 @@
 
         <!--Content Opening-->
         <section class="content-opening text-left">
+            <div class="row justify-content-center d-md-none">
+                <div class="col-lg d-flex d-sm-block d-md-block">
+                    <img src="img/opening.svg">
+                </div>
+            </div>
             <div class="row justify-content-center">
                 <div class="col-lg-7 content-opening">
                     <h2>Nikmati berbagai pilihan jenis mata uang dan pembayaran bunga yang fleksibel</h2>
@@ -137,7 +139,7 @@
                         pasti
                         anda dapatkan.</p>
                 </div>
-                <div class="col-lg-5 content-opening">
+                <div class="col-lg-5 d-none d-lg-block d-xl-block content-opening">
                     <img src="img/opening.svg">
                 </div>
             </div>
@@ -156,7 +158,7 @@
                     <h2>Suku Bunga yang Kompetitif</h2>
                 </div>
             </div>
-            <div class="row justify-content-center" style="margin-top: 56px">
+            <div class="row justify-content-center content-body">
                 <div class="col-lg">
                     <div class="rectangle content1-valuta">
                         <img src="img/content-1-valuta.svg">
@@ -184,12 +186,12 @@
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-lg-5" style="margin-top: 24px">
-                    <div class="rectangle">
+                <div class="col-lg-4 kiri text-lg-right">
+                    <div class="d-flex rectangle">
                         <img src="img/content-2-fleksibilitas.svg">
                     </div>
                 </div>
-                <div class="col-lg-7" style="margin-top: 24px">
+                <div class="col-lg-7 kanan">
                     <div class="text-left">
                         <ul>
                             <li>Anda dapat dengan leluasa memilih jangka waktu Deposito yang diinginkan,
@@ -228,7 +230,7 @@
                 <div class="col-lg"></div>
             </div>
             <div class="row justify-content-center text-center" id="head">
-                <div class="col-lg kiri text-lg-right">
+                <div class="col-lg kiri text-lg-right d-none d-lg-block">
                     <p>Tersedia pilihan penempatan dalam mata uang USD, JPY, EUR, CHF, SGD, GBP, AUD, HKD, CNY.</p>
                     <p>Deposito Anda dapat diperpanjang secara otomatis pada saat jatuh tempo.</p>
                     <p>Pembukaan dan penutupan deposito dapat dilakukan melalui Mandiri SMS, Mandiri Internet, atau
@@ -239,7 +241,7 @@
                         SMS, Mandiri Internet, atau Mandiri Call.</p>
                     </p>
                 </div>
-                <div class="col-lg kanan">
+                <div class="col-lg kanan d-none d-lg-block">
                     <div class="row justify-content-center">
                         <div class="col col-lg-4 rectangle">
                             <div class="content-3-mata-uang">
@@ -276,6 +278,39 @@
                     </div>
                 </div>
             </div>
+            <div class="col-lg d-lg-none text-center">
+                <div class="mobile-ver">
+                    <div class="rectangle content-3-mata-uang">
+                        <img src="img/content-3-mata-uang.svg">
+                        <h6>Pilihan mata uang</h6>
+                    </div>
+                    <p>Tersedia pilihan penempatan dalam mata uang USD, JPY, EUR, CHF, SGD, GBP, AUD, HKD, CNY.</p>
+                    <div class="rectangle content-3-roll-over">
+                        <img src="img/content-3-roll-over.svg">
+                        <h6>Automatic Roll Over</h6>
+                    </div>
+                    <p>Deposito Anda dapat diperpanjang secara otomatis pada saat jatuh tempo.</p>
+                    <div class="rectangle content-3-mandiri-internet">
+                        <img src="img/content-3-mandiri-internet.svg">
+                        <h6>Mandiri Internet</h6>
+                    </div>
+                    <div class="rectangle content-3-mandiri-call">
+                        <img src="img/content-3-mandiri-call.svg">
+                        <h6>Mandiri Call</h6>
+                    </div>
+                    <div class="rectangle content-3-mandiri-sms">
+                        <img src="img/content-3-mandiri-sms.svg">
+                        <h6>Mandiri SMS</h6>
+                    </div>
+                    <p>Pembukaan dan penutupan deposito dapat dilakukan melalui Mandiri SMS, Mandiri Internet, atau
+                        Mandiri Call.</p>
+                    <p>Tersedia layanan informasi dan pembatalan perpanjangan
+                        deposito otomatis/ ARO melalui Mandiri SMS, Mandiri Internet,
+                        atau Mandiri Call khusus untuk deposito yang dibuka melalui
+                        SMS, Mandiri Internet, atau Mandiri Call.</p>
+                    </p>
+                </div>
+            </div>
         </section>
         <!--End Of Content 3-->
 
@@ -291,7 +326,9 @@
             </div>
             <div class="row justify-content-center text-center">
                 <div class="col-lg kiri">
-                    <img src="img/content-4-kredit.svg" alt="">
+                    <div class="d-flex">
+                        <img src="img/content-4-kredit.svg" alt="">
+                    </div>
                 </div>
                 <div class="col-lg kanan text-lg-left">
                     <p>Anda dapat memperoleh fasilitas Kredit Agunan Deposito
@@ -469,7 +506,7 @@
                     <p>Jl. Jenderal Gatot Subroto Kav. 36-38<br> Jakarta 12190 Indonesia<br> Telp: 14000,
                         +62-21-52997777<br> Fax: +62-21-52997735<br> Email: mandiricare@bankmandiri.co.id<br> SWIFT
                         Code: BMRIIDJA</p>
-                    <p class="hidden-xs">Bank Mandiri terdaftar dan diawasi oleh OJK</p>
+                    <p class="d-none d-lg-block">Bank Mandiri terdaftar dan diawasi oleh OJK</p>
                 </div>
                 <div class="col-lg call-us">
                     <h5>Hubungi Kami</h5>
@@ -479,7 +516,7 @@
                                 <i class="fa fa-envelope"></i>
                             </div>
                             <a href="">
-                               <p>email</p>
+                                <p>email</p>
                             </a>
                         </li>
                         <li class="d-block">
@@ -529,6 +566,7 @@
                     <a href="http://www.bi.go.id/edukasimasyarakat">&nbsp;</a>
                     <a href="https://www.bankmandiri.co.id/web/guest/lps">&nbsp;</a>
                 </div>
+                <p class="d-sm-none">Bank Mandiri terdaftar dan diawasi oleh OJK</p>
             </div>
         </section>
         <!--End Of Content Footer-->
@@ -536,12 +574,16 @@
 </div>
 <!--End Of Box Content-->
 
+<!--Footer-->
 <footer class="footer-end container-fluid">
-    <div class="row" style="margin:0 auto; text-align:center;">
-        <div class="col-sm-12"> © 2019 PT Bank Mandiri (Persero) Tbk.</div>
-    </div>
-    <div id="backtotop" style="display: none;"><i class="fa fa-angle-up"></i></div>
+    <div class="mx-auto"> © 2019 PT Bank Mandiri (Persero) Tbk.</div>
+    <!--Button To Top-->
+    <div id="to-top"><i class="fa fa-angle-up" style="display: block;"></i></div>
+    <!--Button Chat-->
+    <div id="chat-icon" class="chat-icon" style="display: block;"></div>
 </footer>
+<!--End Of Footer-->
+
 <script src="js/jquery-3.4.1.slim.min.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
 <script src="js/my.js"></script>

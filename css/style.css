@@ -1,3 +1,4 @@
+/*Font Face*/
 @font-face {
     font-family: 'Myriad Pro Regular';
     font-style: normal;
@@ -11,6 +12,503 @@
     font-weight: normal;
     src: local('Myriad Pro Semibold'), url('../fonts/MYRIADPRO-SEMIBOLD.woff') format('woff');
 }
+
+
+@media (min-width: 768px) {
+    h2 {
+        font-family: 'Myriad Pro Semibold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-size: 1.875rem;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .navbar-top {
+        height: 56px !important;
+    }
+
+    .search-bar .form-inline input {
+        border: 1px solid #f5f5f5;
+        border-radius: 4px;
+        background: #f5f5f5;
+        font-size: 13px;
+        position: absolute;
+        min-width: 100%;
+        text-align: center;
+    }
+
+    .search-bar .form-inline input:focus {
+        background: #ffffff;
+    }
+
+    .navbar-bottom .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #feb600;;
+        width: 90%;
+        padding-bottom: 14px;
+        margin: auto auto -24px;
+    }
+
+    .box-content {
+        margin-top: 0 !important
+    }
+
+    /*.box-content .content-fleksibilitas h2 {*/
+    /*    margin-left: 6%;*/
+    /*}*/
+
+    /*Content*/
+    .box-content {
+        background: #FFF !important;
+        margin-top: 0 !important;
+    }
+
+    .breadcrumb {
+        background: transparent;
+        padding: 26px 0;
+        z-index: 2;
+        margin-bottom: 0;
+        position: absolute
+    }
+
+    .breadcrumb > li {
+        text-shadow: none;
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+    }
+
+    .breadcrumb > li + li:before {
+        content: "/\00a0";
+        color: #1a5289;
+        top: 5px;
+        background-image: none
+    }
+
+    .breadcrumb > li.active {
+        color: #1a5289;
+    }
+
+    .breadcrumb > li > a {
+        font-weight: normal;
+        letter-spacing: 0;
+        color: #1a5289;
+    }
+
+    .breadcrumb > li:hover > a {
+        color: #1a5289;
+    }
+
+    .breadcrumb > li > a:hover {
+        text-decoration: underline
+    }
+
+    .box-content .row .content-opening {
+        padding-top: 146px;
+    }
+
+    .box-content .row .content-opening h2{
+        margin-top: 90px;
+    }
+
+    .box-content .row .content-opening p {
+        font-size: 18px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.89;
+        letter-spacing: normal;
+        color: #5a5e72;
+    }
+
+    .box-content .row .content-opening img{
+        object-fit: contain;
+    }
+
+    .box-content .content-keuntungan {
+        padding-top: 185px;
+    }
+
+    .box-content .content-keuntungan div.content-body {
+        margin-top: 56px;
+    }
+
+    .box-content .content-keuntungan h2 {
+        color: #feb602;
+    }
+
+    .box-content .content-keuntungan .suku-bunga h2 {
+        margin-top: 46px;
+        color: #003d79;
+    }
+
+    .box-content .content-keuntungan .content1-valuta img{
+        border-radius: 8px;
+        background-color: #ffffff;
+        box-shadow: 0px 0px 4px 0px rgba(0,0,0,.2);
+        object-fit: contain;
+    }
+
+    .box-content .content-keuntungan .content1-calender img{
+        border-radius: 8px;
+        background-color: #ffffff;
+        box-shadow: 0px 0px 4px 0px rgba(0,0,0,.2);
+        object-fit: contain;
+    }
+
+    .box-content .content-keuntungan p {
+        margin: 33px;
+        font-size: 18px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.72;
+        letter-spacing: normal;
+        text-align: center;
+        color: #1a5289;
+    }
+
+    .box-content .content-fleksibilitas {
+        padding-top: 192px;
+    }
+
+    .box-content .content-fleksibilitas .kiri {
+        margin-top: 24px;
+    }
+
+    .box-content .content-fleksibilitas .kanan {
+        margin-top: 24px;
+    }
+
+    .box-content .content-fleksibilitas h2 {
+        color: #003d79;
+    }
+
+    .box-content .content-fleksibilitas img{
+        object-fit: contain;
+    }
+
+    .box-content .content-fleksibilitas ul {
+        font-size: 18px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.72;
+        letter-spacing: normal;
+        color: #1a5289;
+    }
+
+    .box-content .content-fasilitas {
+        padding-top: 221px;
+    }
+
+    .box-content .content-fasilitas div#head {
+        margin-top: 24px;
+    }
+
+    .box-content .content-fasilitas h2{
+        line-height: 1.17;
+        letter-spacing: normal;
+        color: #003d79;
+    }
+
+    .box-content .content-fasilitas p {
+        font-size: 18px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.72;
+        letter-spacing: normal;
+        text-align: right;
+        color: #1a5289;
+    }
+
+    .box-content .content-fasilitas .kiri p.text-lg-right br{
+        margin-top: 16px;
+    }
+
+    .box-content .content-fasilitas div#head .kanan{
+        margin-top: 12px
+    }
+
+    .box-content .content-fasilitas .kanan .justify-content-between {
+        margin-top: 24px;
+    }
+
+    .box-content .content-fasilitas .kanan .content-3-mata-uang {
+        padding: 6px 20px 12px 20px;
+        border-radius: 10px;
+        box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.07);
+        background-color: #ffffff;
+    }
+
+    .box-content .content-fasilitas .kanan h6{
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #1a5289;
+    }
+
+    .box-content .content-fasilitas .kanan .content-3-roll-over {
+        padding: 6px 20px 12px 20px;
+        border-radius: 10px;
+        box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.07);
+        background-color: #ffffff;
+    }
+
+    .box-content .content-fasilitas .kanan .content-3-mandiri-internet {
+        padding: 6px 20px 12px 20px;
+        border-radius: 10px;
+        box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.07);
+        background-color: #ffffff;
+    }
+
+    .box-content .content-fasilitas .kanan .content-3-mandiri-internet h6{
+        margin-top: 21px;
+    }
+
+    .box-content .content-fasilitas .kanan .content-3-mandiri-call {
+        padding: 6px 20px 12px 20px;
+        border-radius: 10px;
+        box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.07);
+        background-color: #ffffff;
+    }
+
+    .box-content .content-fasilitas .kanan .content-3-mandiri-call h6{
+        margin-top: 21px;
+    }
+
+    .box-content .content-fasilitas .kanan .content-3-mandiri-sms {
+        padding: 6px 20px 12px 20px;
+        border-radius: 10px;
+        box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.07);
+        background-color: #ffffff;
+    }
+
+    .box-content .content-fasilitas .kanan .content-3-mandiri-sms h6{
+        margin-top: 21px;
+    }
+
+    .box-content .content-kredit {
+        padding-top: 322px;
+    }
+
+    .box-content .content-kredit h2 {
+        color: #003d79;
+    }
+
+    .box-content .content-kredit .kiri img {
+        object-fit: contain;
+        margin-top: -114px;
+        float: right;
+    }
+
+    .box-content .content-kredit .kanan {
+        margin-top: 24px;
+    }
+    .box-content .content-kredit .kanan p {
+        padding-right: 50px;
+        font-size: 18px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.72;
+        letter-spacing: normal;
+        color: #1a5289;
+    }
+
+    .box-content .content-persyaratan {
+        padding-top: 241px;
+    }
+
+    .box-content .content-persyaratan h2{
+        line-height: 1.17;
+        color: #1a5289;
+    }
+    .box-content .content-persyaratan .head {
+        margin-top: 56px;
+        font-size: 18px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.72;
+        letter-spacing: normal;
+        color: #1a5289;
+    }
+
+    .box-content .content-persyaratan .head .card {
+        margin-top: 8px;
+        line-height: normal !important;
+        width: 90%;
+        border-radius: 8px;
+        box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.07);
+        background-color: #ffffff;
+    }
+
+    .box-content .content-persyaratan .head .card .list-group-item {
+        border:unset;
+    }
+
+    .box-content .content-persyaratan .head p {
+        font-size: 18px;
+        margin-top: 32px;
+    }
+
+    .box-content .content-footer {
+        margin-top: 122px;
+        padding-top: 80px;
+        background: #fff;
+        border-top: 1px solid #eee;
+    }
+
+    .box-content .content-footer h5{
+        font-size: 1.2rem;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.72;
+        letter-spacing: normal;
+        color: #1a5289;
+        margin-bottom: 10px;
+    }
+
+    .content-footer a {
+        color: grey;
+        margin-bottom: 0;
+        text-decoration: none;
+    }
+
+    .content-footer a {
+        color: #9197a4;
+        transition: color .25s ease-in-out;
+        -moz-transition: color .25s ease-in-out;
+        -webkit-transition: color .25s ease-in-out;
+        -o-transition: color .25s ease-in-out
+    }
+
+    .content-footer a:hover{
+        color: #459dda
+    }
+
+    .content-footer p {
+        color: #9197a4;
+        line-height: 1.8;
+        margin-bottom: 0;
+    }
+
+    .content-footer img {
+        margin-top: 10px;
+        width: 80%
+    }
+
+    .content-footer .call-us p {
+        margin-left: 25px;
+    }
+
+    .content-footer .fa-container {
+        color: #9197a4;
+        float: left;
+        margin-top: 3px;
+        font-size: .9rem !important;
+        text-align: center;
+        width: 20px
+    }
+
+    .logo-support a {
+        display: inline-block;
+        width: 100px;
+        height: 50px;
+        background: transparent;
+        margin-right: 5px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center
+    }
+
+    .logo-support a:nth-child(1) {
+        background-image: url("../img/logo-edukasi-masyarakat.jpg");
+    }
+
+    .logo-support a:nth-child(2) {
+        background-image: url(../img/logo-ayo-ke-bank.jpg);
+    }
+
+    .logo-support a:nth-child(3) {
+        background-image: url(../img/logo-lembaga-simpan-pinjam.jpg);
+    }
+
+    .footer-end {
+        background: #2469a5 !important;
+        padding: 15px 0 !important;
+        color: #fff !important;
+        text-align: center;
+        font-size: .9em
+    }
+
+    .footer-end a {
+        color: #fff !important;
+        margin: 0 5px
+    }
+
+    #to-top .fa-angle-up:before {
+        font-size: 1.5rem;
+        text-align: center;
+        position: relative;
+        top: 2px
+    }
+
+    #to-top {
+        background-color: #459dda;
+        cursor: pointer;
+        display: block;
+        height: 54px;
+        width: 54px;
+        position: fixed;
+        right: 88px;
+        bottom: 20px;
+        z-index: 8;
+        padding: 10px 20px;
+        font-size: 18px;
+        border-radius: 50%
+    }
+
+    .chat-icon {
+        width: 55px;
+        height: 55px;
+        line-height: 50px;
+        text-align: center;
+        z-index: 99999;
+        border-radius: 100%;
+        cursor: pointer;
+        background-color: #3498db;
+        background-size: 30px;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        background-image: url(../img/ic_chat.png);
+        float: right
+    }
+
+    .chat-icon {
+        position: fixed;
+        bottom: 19px;
+        right: 19px;
+    }
+}
+
+
 
 .body {
     font-size: 16px;
@@ -27,11 +525,17 @@ section {
 
 h2 {
     font-family: 'Myriad Pro Semibold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 30px;
-    font-weight: 600;
+    font-size: 1.5rem;
     font-stretch: normal;
     font-style: normal;
     line-height: normal;
+    letter-spacing: normal;
+}
+
+p {
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
     letter-spacing: normal;
 }
 
@@ -69,10 +573,6 @@ h2 {
     opacity: .25
 }
 
-.bahasa-bar {
-    visibility: collapse;
-}
-
 .bahasa-bar .nav span {
     font-size: .9rem;
     color: #999;
@@ -82,10 +582,6 @@ h2 {
 
 .bahasa-bar .nav .active span {
     color: #2469a5;
-}
-
-.search-bar {
-    visibility: collapse;
 }
 
 .search-bar .nav {
@@ -134,13 +630,16 @@ h2 {
     border-radius: 0;
 }
 
+.utilities-bar .nav-item .dropdown-menu-sm-right {
+    position: absolute;
+}
+
 .utilities-bar .nav-item div#collapse-calculator.dropdown-menu {
     margin: 0;
     top: 40px;
     border-radius: 0;
     box-shadow: 0 3px 0 rgba(69,157,218,.7) , 1px 1px 3px 0 rgba(0,0,0,.4);
 }
-
 
 .utilities-bar li.nav-item .location:focus {
     background: #459dda;
@@ -169,6 +668,7 @@ h2 {
     border-radius: 0;
     box-shadow: 0 3px 0 rgba(69,157,218,.7) , 1px 1px 3px 0 rgba(0,0,0,.4);
 }
+
 
 .utilities-bar li .sign-in {
     margin-top: -1px;
@@ -213,7 +713,7 @@ h2 {
     box-shadow: none;
     background: #fff none;
     border: 0;
-    border-bottom: 1px solid #eee
+    border-bottom: 1px solid #eee;
 }
 
 .navbar-bottom .logo-img {
@@ -290,25 +790,30 @@ h2 {
     text-decoration: underline
 }
 
+.box-content .content-opening {
+    padding-top: 50px;
+}
+
+.box-content .content-opening .row {
+    padding: 0 15px 0px 15px;
+}
+
+.box-content .row .d-sm-block {
+    margin-top: 50px;
+}
+
 .box-content .row .content-opening {
-    padding-top: 146px;
+    padding-top: 50px;
 }
 
 .box-content .row .content-opening h2{
-    font-family: 'Myriad Pro Semibold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    margin-top: 90px;
     line-height: 1.53;
     color: #feb602;
     margin-bottom: 16px;
 }
 
 .box-content .row .content-opening p {
-    font-size: 18px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 1.89;
-    letter-spacing: normal;
     color: #5a5e72;
 }
 
@@ -317,7 +822,11 @@ h2 {
 }
 
 .box-content .content-keuntungan {
-    padding-top: 185px;
+    padding-top: 80px;
+}
+
+.box-content .content-keuntungan div.content-body {
+    margin-top: 56px;
 }
 
 .box-content .content-keuntungan h2 {
@@ -345,18 +854,22 @@ h2 {
 
 .box-content .content-keuntungan p {
     margin: 33px;
-    font-size: 18px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 1.72;
-    letter-spacing: normal;
     text-align: center;
     color: #1a5289;
 }
 
 .box-content .content-fleksibilitas {
-    padding-top: 192px;
+    padding-top: 80px;
+}
+
+.box-content .content-fleksibilitas .kiri {
+    margin-top: 24px;
+}
+
+.box-content .content-fleksibilitas .kanan {
+    margin: 0 15px 0px -5px;
+    margin-top: 24px;
 }
 
 .box-content .content-fleksibilitas h2 {
@@ -368,7 +881,6 @@ h2 {
 }
 
 .box-content .content-fleksibilitas ul {
-    font-size: 18px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -378,7 +890,7 @@ h2 {
 }
 
 .box-content .content-fasilitas {
-    padding-top: 221px;
+    padding-top: 80px;
 }
 
 .box-content .content-fasilitas div#head {
@@ -392,13 +904,7 @@ h2 {
 }
 
 .box-content .content-fasilitas p {
-    font-size: 18px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 1.72;
-    letter-spacing: normal;
-    text-align: right;
     color: #1a5289;
 }
 
@@ -457,7 +963,7 @@ h2 {
 }
 
 .box-content .content-fasilitas .kanan .content-3-mandiri-call h6{
-    margin-top: 21px;
+    margin-top: 25px;
 }
 
 .box-content .content-fasilitas .kanan .content-3-mandiri-sms {
@@ -471,8 +977,21 @@ h2 {
     margin-top: 21px;
 }
 
+.box-content .content-fasilitas .mobile-ver .rectangle img{
+    margin-top: 12px;
+    padding: 6px 20px 12px 20px;
+    border-radius: 10px;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.07);
+    background-color: #ffffff;
+}
+
+.box-content .content-fasilitas .mobile-ver .rectangle h6{
+    margin-top: 24px;
+    font-weight: 600;
+}
+
 .box-content .content-kredit {
-    padding-top: 322px;
+    padding-top: 80px;
 }
 
 .box-content .content-kredit h2 {
@@ -481,8 +1000,10 @@ h2 {
 
 .box-content .content-kredit .kiri img {
     object-fit: contain;
-    margin-top: -114px;
-    float: right;
+}
+
+.box-content .content-kredit .kiri .d-flex {
+    padding: 40px;
 }
 
 .box-content .content-kredit .kanan {
@@ -490,17 +1011,16 @@ h2 {
 }
 .box-content .content-kredit .kanan p {
     padding-right: 50px;
-    font-size: 18px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
     line-height: 1.72;
-    letter-spacing: normal;
     color: #1a5289;
 }
 
+.box-content .content-kredit .kanan {
+    padding: 2px 0px 0px 50px;
+}
+
 .box-content .content-persyaratan {
-    padding-top: 241px;
+    padding-top: 80px;
 }
 
 .box-content .content-persyaratan h2{
@@ -508,8 +1028,7 @@ h2 {
     color: #1a5289;
 }
 .box-content .content-persyaratan .head {
-    margin-top: 56px;
-    font-size: 18px;
+    margin-top: 46px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -532,13 +1051,25 @@ h2 {
 }
 
 .box-content .content-persyaratan .head p {
-    font-size: 18px;
     margin-top: 32px;
 }
 
+.box-content .content-persyaratan .text-justify {
+    margin-top: 20px;
+    padding-right: 25px;
+}
+
+.box-content .content-persyaratan row .col-lg .text-justify {
+    margin-left: -10px;
+    padding-right: 20px;
+}
 .box-content .content-footer {
-    padding-top: 122px;
+    padding-top: 80px;
     background: #fff;
+}
+
+.box-content .content-footer .text-left {
+    padding-left: 20px;
 }
 
 .box-content .content-footer h5{
@@ -581,6 +1112,10 @@ h2 {
     width: 80%
 }
 
+.content-footer .call-us {
+    margin-top: 14px;
+}
+
 .content-footer .call-us p {
     margin-left: 25px;
 }
@@ -618,6 +1153,7 @@ h2 {
 }
 
 .footer-end {
+    margin-top: 24px;
     background: #2469a5 !important;
     padding: 15px 0 !important;
     color: #fff !important;
@@ -630,17 +1166,17 @@ h2 {
     margin: 0 5px
 }
 
-#backtotop .fa-angle-up:before {
+#to-top .fa-angle-up:before {
     font-size: 1.5rem;
     text-align: center;
     position: relative;
     top: 2px
 }
 
-#backtotop {
+#to-top {
     background-color: #459dda;
     cursor: pointer;
-    display: none;
+    display: block;
     height: 54px;
     width: 54px;
     position: fixed;
@@ -652,51 +1188,24 @@ h2 {
     border-radius: 50%
 }
 
-@media (min-width: 768px) {
-    /*section {*/
-    /*    margin-top: initial;*/
-    /*}*/
+.chat-icon {
+    width: 55px;
+    height: 55px;
+    line-height: 50px;
+    text-align: center;
+    z-index: 99999;
+    border-radius: 100%;
+    cursor: pointer;
+    background-color: #3498db;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-image: url(../img/ic_chat.png);
+    float: right
+}
 
-    .navbar-top {
-        height: 56px !important;
-    }
-
-    .bahasa-bar {
-        visibility: visible;
-    }
-
-    .search-bar {
-        visibility: visible;
-    }
-
-    .search-bar .form-inline input {
-        border: 1px solid #f5f5f5;
-        border-radius: 4px;
-        background: #f5f5f5;
-        font-size: 13px;
-        position: absolute;
-        min-width: 100%;
-        text-align: center;
-    }
-
-    .search-bar .form-inline input:focus {
-        background: #ffffff;
-    }
-
-    .navbar-bottom .nav-link:hover::after {
-        content: '';
-        display: block;
-        border-bottom: 3px solid #feb600;;
-        width: 90%;
-        padding-bottom: 14px;
-        margin: auto auto -24px;
-    }
-
-    .box-content {
-        margin-top: 0 !important
-    }
-
-    .box-content .content-fleksibilitas h2 {
-        margin-left: 6%;
-    }
+.chat-icon {
+    position: fixed;
+    bottom: 19px;
+    right: 19px;
 }
