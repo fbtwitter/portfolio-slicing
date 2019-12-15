@@ -291,7 +291,7 @@ h2 {
 }
 
 .box-content .row .content-opening {
-    margin-top: 146px;
+    padding-top: 146px;
 }
 
 .box-content .row .content-opening h2{
@@ -317,7 +317,7 @@ h2 {
 }
 
 .box-content .content-keuntungan {
-    margin-top: 185px;
+    padding-top: 185px;
 }
 
 .box-content .content-keuntungan h2 {
@@ -356,7 +356,7 @@ h2 {
 }
 
 .box-content .content-fleksibilitas {
-    margin-top: 192px;
+    padding-top: 192px;
 }
 
 .box-content .content-fleksibilitas h2 {
@@ -378,7 +378,7 @@ h2 {
 }
 
 .box-content .content-fasilitas {
-    margin-top: 221px;
+    padding-top: 221px;
 }
 
 .box-content .content-fasilitas div#head {
@@ -472,7 +472,7 @@ h2 {
 }
 
 .box-content .content-kredit {
-    margin-top: 322px;
+    padding-top: 322px;
 }
 
 .box-content .content-kredit h2 {
@@ -497,6 +497,10 @@ h2 {
     line-height: 1.72;
     letter-spacing: normal;
     color: #1a5289;
+}
+
+.box-content .content-persyaratan {
+    padding-top: 241px;
 }
 
 .box-content .content-persyaratan h2{
@@ -530,6 +534,122 @@ h2 {
 .box-content .content-persyaratan .head p {
     font-size: 18px;
     margin-top: 32px;
+}
+
+.box-content .content-footer {
+    padding-top: 122px;
+    background: #fff;
+}
+
+.box-content .content-footer h5{
+    font-size: 1.2rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.72;
+    letter-spacing: normal;
+    color: #1a5289;
+    margin-bottom: 10px;
+}
+
+.content-footer a {
+    color: grey;
+    margin-bottom: 0;
+    text-decoration: none;
+}
+
+.content-footer a {
+    color: #9197a4;
+    transition: color .25s ease-in-out;
+    -moz-transition: color .25s ease-in-out;
+    -webkit-transition: color .25s ease-in-out;
+    -o-transition: color .25s ease-in-out
+}
+
+.content-footer a:hover{
+    color: #459dda
+}
+
+.content-footer p {
+    color: #9197a4;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+.content-footer img {
+    margin-top: 10px;
+    width: 80%
+}
+
+.content-footer .call-us p {
+    margin-left: 25px;
+}
+
+.content-footer .fa-container {
+    color: #9197a4;
+    float: left;
+    margin-top: 3px;
+    font-size: .9rem !important;
+    text-align: center;
+    width: 20px
+}
+
+.logo-support a {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    background: transparent;
+    margin-right: 5px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center
+}
+
+.logo-support a:nth-child(1) {
+    background-image: url("../img/logo-edukasi-masyarakat.jpg");
+}
+
+.logo-support a:nth-child(2) {
+    background-image: url(../img/logo-ayo-ke-bank.jpg);
+}
+
+.logo-support a:nth-child(3) {
+    background-image: url(../img/logo-lembaga-simpan-pinjam.jpg);
+}
+
+.footer-end {
+    background: #2469a5 !important;
+    padding: 15px 0 !important;
+    color: #fff !important;
+    text-align: center;
+    font-size: .9em
+}
+
+.footer-end a {
+    color: #fff !important;
+    margin: 0 5px
+}
+
+#backtotop .fa-angle-up:before {
+    font-size: 1.5rem;
+    text-align: center;
+    position: relative;
+    top: 2px
+}
+
+#backtotop {
+    background-color: #459dda;
+    cursor: pointer;
+    display: none;
+    height: 54px;
+    width: 54px;
+    position: fixed;
+    right: 88px;
+    bottom: 20px;
+    z-index: 8;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 50%
 }
 
 @media (min-width: 768px) {

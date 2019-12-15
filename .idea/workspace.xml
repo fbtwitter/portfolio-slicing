@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6596c500-b5d9-4185-b308-2a19a323b7b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/fonts/MYRIADPRO-SEMIBOLD.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/content-3-mandiri-call.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/content-3-mandiri-internet.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/content-3-mandiri-sms.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/content-3-mata-uang.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/content-3-roll-over.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/content-4-kredit.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/logo-ayo-ke-bank.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/logo-edukasi-masyarakat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/logo-lembaga-simpan-pinjam.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/my.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -69,6 +66,7 @@
       <workItem from="1576290506119" duration="5480000" />
       <workItem from="1576307442126" duration="22531000" />
       <workItem from="1576348518545" duration="17880000" />
+      <workItem from="1576368129904" duration="10994000" />
     </task>
     <servers />
   </component>
